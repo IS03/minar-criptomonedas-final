@@ -1,0 +1,23 @@
+{
+  "name": "proyecto-senestrari",
+  "version": "1.0.0",
+  "description": "",
+  "main": "javaScript.js",
+  "dependencies": {
+    "sweetalert2": "^11.1.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IS03/proyectoFinalJavaScript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IS03/proyectoFinalJavaScript/issues"
+  },
+  "homepage": "https://github.com/IS03/proyectoFinalJavaScript#readme"
+}

@@ -1,0 +1,547 @@
+* {
+  margin: 2px;
+  padding: 2px;
+}
+
+.botonHora {
+  background-color: #5a5a5a;
+  color: whitesmoke;
+  border: none;
+  padding: 0;
+}
+
+li {
+  margin-left: 40px; }
+
+.card {
+  background-color: black;
+  border-color: white;
+  color: whitesmoke;
+  padding-bottom: 13px;
+}
+
+.textoTabla, #tituloTabla {
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
+  font-size: 20px;
+  font-weight: inherit;
+  border: 1px solid white;
+  height: 100%; }
+
+#tituloTabla {
+  padding: 10px;
+  font-size: 35px;
+  display: grid;
+  border: none; }
+
+.footer {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  padding-top: 10px;
+  padding: 0;
+  border: inset;
+  border-color: dimgrey;
+  box-shadow: 0 -1px 11px rgb(29 29 29);
+  border-width: 5px;
+  background-color: #5a5a5a;
+  text-align: center;
+  width: 100%;
+}
+  .footer .footer__titulo {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 16px; }
+  .footer .footer__items {
+    width: 55px;
+    margin-bottom: 15px; }
+
+.footer2 {
+  position: absolute;
+  bottom: 0;
+}
+
+a {
+  text-decoration: none; }
+
+p {
+  font-family: "Unna", serif;
+  font-weight: 500;
+  font-size: 21px;
+  text-transform: inherit;
+  line-height: 27px;
+  letter-spacing: inherit;
+  word-spacing: inherit;
+  padding: 15px;
+  margin-bottom: 40px;
+  margin-top: 0%;
+  color: white; }
+
+.main {
+  display: flex;
+  flex-direction: column; 
+  padding-top: 10px;}
+  .main .main__articuloInd {
+    display: flex;
+    align-items: center; }
+  .main .main__titulo1 {
+    color: #68bbe3;
+    font-family: "Ubuntu", sans-serif;
+    padding: 10px;
+    font-size: 35px; }
+  .main .main__titulo2 {
+    color: #0e86d4;
+    font-family: "Ubuntu", sans-serif;
+    padding: 10px;
+    font-size: 35px; }
+  .main .main__titulo3 {
+    color: #1a3eb6;
+    font-family: "Ubuntu", sans-serif;
+    padding: 10px;
+    font-size: 35px; }
+  .main .main__imagenArticuloCripto {
+    width: 650px;
+    padding: 20px;
+    height: 450px; }
+  .main .main__listaDesordenada2 {
+    color: #75e6da;
+    list-style-type: square;
+    font-size: 20px; }
+  .main .main__primer-articulo {
+    display: flex; }
+  .main .main__listaCriptos {
+    color: white; }
+  .main .main__infoArticulo {
+    display: flex; }
+  .main .main__imagenArticulo {
+    width: 45%;
+    padding: 20px;
+    height: 20%; }
+  .main .main__articulo-1 {
+    display: flex;
+    justify-content: center; }
+  .main .main__tituloCentrado {
+    text-align: center; }
+
+.flexMainContact {
+  display: flex; 
+  padding-top: 20px ;}
+  .flexMainContact .flexMainContact__formularioFlex {
+    display: flex;
+    flex-direction: column;
+    text-transform: capitalize;
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    background-color: black;
+    color: white; }
+  .flexMainContact .flexMainContact__Flex {
+    display: flex; }
+  .flexMainContact .flexMainContact__tituloFormulario {
+    color: #1966b0;
+    font-family: "Ubuntu", sans-serif;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-basis: 50%; }
+
+input:focus {
+  height: 30px; }
+
+.formulario2 {
+  background-color: black;
+  color: white;
+  padding-right: 0;
+  padding-left: 0;
+  margin-right: 0;
+  margin-left: 0;
+  border-right: 0;
+  border-left: 0;
+  margin-bottom: 10px;
+  transition: all 0.5s; }
+
+.imagenArticulo {
+  width: 50%;
+  padding: 20px;
+  height: 500px; }
+
+.imagenWallet {
+  width: 30%;
+  height: 300px; }
+
+.videoYoutube {
+  display: flex;
+  justify-content: center;
+  height: 500px; }
+
+
+#select {
+  display: inline-flex;
+  margin-bottom: 0%; }
+
+.body {
+  background-color: black;
+  height: auto;}
+
+.ulWallet {
+  color: white; }
+
+.letraLista {
+  color: black;
+  margin-bottom: 0px;
+  padding-left: 0px;
+}
+
+.form-select {
+  color: whitesmoke;
+  background-color: black;
+}
+
+.list-group-horizontal {
+  flex-direction: column;
+  width: 40%;
+}
+
+.btnVerMas {
+  background-color: black;
+  color: whitesmoke;
+  margin-left: 20px;
+  margin-bottom: 0px;
+}
+
+.textoHome {
+  margin-bottom: 10px;
+}
+
+.header {
+  color: whitesmoke;
+  margin: 0;
+  left: 0;
+  top: 0;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: inset;
+  border-color: dimgrey;
+  box-shadow: 0 15px 11px rgb(29 29 29);
+  border-width: 5px;
+  background-color: #5a5a5a;
+}
+
+.logo-nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.header a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.nav ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+  .nav ul li {
+      display: inline-block;
+  }
+
+      .nav ul li a {
+          display: block;
+          padding: 0.5rem 1rem;
+          transition: all 0.35s linear;
+          border-radius: 6px;
+      }
+
+          .nav ul li a:hover {
+              background-color: #3f3e3e;
+          }
+
+              .nav ul li a img {
+                  height: 110px;
+                  width: 100px;
+              }
+
+.logo {
+  letter-spacing: 15px;
+  width: 60px;
+  height: auto;
+}
+
+.menu-icon {
+  display: none;
+}
+
+
+
+@media only screen and (max-width: 900px) {
+
+  .menu-icon {
+      display: block;
+      cursor: pointer;
+      padding-right: 40px;
+  }
+
+  .header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .logo {
+    width: 45px;
+  }
+  
+  .logo-nav-container {
+      margin-left: 0px;
+      margin-right: 0px;
+  }
+  
+  .nav {
+      width: 100%;
+      margin-left: 10px;
+      margin-top: 0px;
+  }
+      .nav ul {
+          display: none;
+      }
+          .nav ul .mostrar {
+              display: block;
+          }
+              .nav ul li {
+                  display: block;
+                  }
+                  .nav ul li a {
+                      display: block;
+                      padding: 0.5rem 0;
+                      transition: all 0.35s linear;
+                      border-radius: 6px;
+                      }
+                      .nav ul li a:hover {
+                          background-color: #4a4a4a;
+                          }
+
+  .liResponsive {
+    margin-left: 0;
+  }
+
+  .main__articuloInd {
+    display: flex;
+    flex-direction: column; }
+  .main__listaDesordenada2 {
+    margin-bottom: 45px;
+  }
+  .main__imagenArticuloCripto {
+    width: 100%!important;
+    height: auto!important;
+  }
+  .main .main__imagenArticulo {
+    width: 100%;
+    height: auto;
+    align-self: center; }
+  .main__titulo1 {
+    font-size: 20px; }
+  .main__titulo2 {
+    font-size: 20px; }
+  .man__titulo3 {
+    font-size: 20px; }
+  p {
+    font-size: 15px; }
+  .main {
+    display: block; }
+  .videoYoutube {
+    width: 100%;
+    height: 400px; }
+  .articulo-1 {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    color: white;
+    flex-direction: column; }
+  .main__imagenCritomonedas {
+    width: 90%;
+    padding: 25px; }
+  .main__articulo-1 {
+    flex-direction: column; }
+  .main__imagenArticuloCripto {
+    width: auto;
+    height: 230px;
+    align-self: center; }
+  .footer .footer__titulo {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 15px; }
+  .footer .footer__items {
+    width: 40px; }
+  .videoYoutube {
+    margin-bottom: 0px;
+    width: 100px;
+    height: 60vh; }
+  .flexMainContact {
+    display: block; }
+
+  .list-group-horizontal {
+    flex-direction: column;
+    width: 100%;
+  }
+  .flexMainContact__formularioFlex {
+    margin-right: 0px!important;
+    margin-bottom: 35px!important;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .menu-icon {
+    display: block;
+    cursor: pointer;
+    padding-right: 40px;
+}
+
+.header {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.logo {
+  width: 45px;
+}
+
+.logo-nav-container {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.nav {
+    width: 100%;
+    margin-top: 0px;
+    margin-left: 10px;
+}
+    .nav ul {
+        display: none;
+    }
+        .nav ul.mostrar {
+            display: block;
+        }
+            .nav ul li {
+                display: block;
+                }
+                .nav ul li a {
+                    display: block;
+                    padding: 0.5rem 0;
+                    transition: all 0.35s linear;
+                    border-radius: 6px;
+                    }
+                    .nav ul li a:hover {
+                        background-color: #4a4a4a;
+                        }
+  
+  .main__articuloInd {
+    display: flex;
+    flex-direction: column; }
+  .main__imagenArticulo {
+    width: 100%;
+    height: auto;
+    align-self: center; }
+  .main__titulo1 {
+    font-size: 25px; }
+  .main__titulo2 {
+    font-size: 25px; }
+  .main__titulo3 {
+    font-size: 25px; }
+  p {
+    font-size: 18px; }
+  .main {
+    display: block; }
+    .videoYoutube {
+      width: 100%;
+      height: 400px; }
+  .articulo-1 {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    color: white;
+    flex-direction: column; } 
+  }
+
+  .cripto {
+    border: 2px solid #000;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #5a5a5a;
+  }
+  
+  .criptoPrecio {
+    color: white;
+  }
+  
+  .criptoTitulos {
+    text-transform: uppercase;
+    text-align: start;
+    font-weight: 350;
+    color: white;
+  }
+  
+  .cripto-detalles {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0px 15px;
+  }
+  
+  .criptosLista {
+    padding: 20px 0px;
+  }
+  
+  .carritoHeader {
+    border-bottom: 1px solid #ccc;
+    color: white;
+  }
+  
+  .carritoCantidad {
+    max-width: 45px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #eee;
+    padding: 5px;
+  }
+  
+  .carritoTotal {
+    min-height: 96px;
+    margin-top: 70px;
+  }
+  
+  .botonCriptos {
+    background-color: red;
+    border: black;
+  }
+  
+  .comprarButton {
+    background-color: cornflowerblue;
+    align-self: center;
+  }
+
+  .col-4 {
+    width: 10%;
+}
+
+.carritoTituloCriptos {
+  color: white;
+}
+
+.carritoCriptosAdd {
+  height: 30px;
+}
+
+.buttonDelete {
+  height: 30px;
+  margin-left: 10px;
+}
+
+.shoppingCartcripto {
+  height: 95px;
+}
+
+.mb-0 {
+  align-self: center;
+}
+
